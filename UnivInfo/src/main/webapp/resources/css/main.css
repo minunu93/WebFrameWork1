@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.formtable{
+	width: 400px;
+	border: 1px solid blue;
+	margin: 50px;
+	padding: 10px;
+}
+
+.label{
+	text-align: right;
+	vertical-align: top;
+}
+
+.control{
+	margin-left: 10px;
+}
+
+.error{
+	font-size:small;
+	color:red;
+	margin-left:10px;
+}
+a:link, a:visited {
+    background-color: lightgreen;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:200px;
+}
+
+
+a:hover, a:active {
+    background-color: lightgreen;
+    width:200px;
+}
+
+textarea{
+	width: 300px;
+	height: 100px;
+}
+
+input{
+	width: 300px;
+}
+
+input[type=text]{
+	width: 300px;
+}
+
+input[type=submit]{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
